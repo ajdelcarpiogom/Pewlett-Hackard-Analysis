@@ -55,7 +55,7 @@ CREATE TABLE titles(
 );
 
 -- Retirement Eligibility
-SELECT first_name, last_name
+SELECT emp_no, first_name, last_name
 INTO retirement_info
 FROM employees
 WHERE (birth_date BETWEEN '1952-01-01' AND '1955-12-31')
